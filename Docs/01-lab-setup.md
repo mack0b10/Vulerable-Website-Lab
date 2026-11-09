@@ -33,3 +33,29 @@ This helped me understand how NAT allows a virtual machine to communicate with d
 ### Key Takeaway
 
 NAT allows Kali to initiate outbound connections without requiring it to have its own IP address on my home network. The firewall on my desktop controls which incoming connections are permitted.
+
+
+## Web Application Screenshots
+
+## Web Application Screenshots
+
+### Login Page
+
+This screenshot shows the login interface I created
+using HTML, CSS, and JavaScript.
+
+![Login Page](../public/screenshots/login-page.png)
+
+### Successful Login
+
+This screenshot demonstrates successful authentication
+through my Express backend.
+
+![Successful Login](../public/screenshots/successful-login.png)
+
+### Failed Login
+
+This screenshot demonstrates how the application
+rejects incorrect login credentials.
+
+![Failed Login](../public/screenshots/error-login.png)
