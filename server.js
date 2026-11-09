@@ -110,6 +110,7 @@ app.post("/login", (req, res) => {
 });
 
 // Start server locally
-app.listen(PORT, "127.0.0.1", () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+
+app.listen(PORT, "10.0.0.12", () => {
+    console.log(`Lab server running at http://10.0.0.12:${PORT}`);
 });
