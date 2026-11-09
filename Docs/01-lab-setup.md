@@ -59,3 +59,21 @@ This screenshot demonstrates how the application
 rejects incorrect login credentials.
 
 ![Failed Login](../public/screenshots/error-login.png)
+
+
+## Kali Linux Connectivity Test
+
+To verify that my Kali Linux VM could communicate
+with my Node.js Express server, I used curl.
+
+Command executed:
+
+`curl -I http://10.0.0.12:3000`
+
+The command sends an HTTP HEAD request to the
+web server and displays the response headers.
+
+The successful HTTP response confirmed that
+Kali could reach my Express application over
+the local network.
+
