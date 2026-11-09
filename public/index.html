@@ -1,18 +1,42 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberSecurity Lab</title>
+    <title>SecureClient | Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>CyberSecurity Lab</h1>
-        <p>My first Node.js cybersecurity website!</p>
 
-        <button id="testBtn">Test JavaScript</button>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>SecureClient</h1>
+            <p>Client Management Portal</p>
+
+            <form id="loginForm">
+                <label for="username">Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter username"
+                    required
+                >
+
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter password"
+                    required
+                >
+
+                <button type="submit">Sign In</button>
+            </form>
+
+            <p id="message"></p>
+        </div>
     </div>
 
     <script src="script.js"></script>

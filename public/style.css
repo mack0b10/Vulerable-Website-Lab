@@ -1,29 +1,75 @@
 
-body {
-    background-color: #0f172a;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
-.container {
-    margin-top: 150px;
+body {
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-card {
+    background: #1e293b;
+    padding: 40px;
+    width: 380px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
     color: #38bdf8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-card > p {
+    text-align: center;
+    color: #94a3b8;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    background: #0f172a;
+    color: white;
 }
 
 button {
-    background-color: #38bdf8;
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background: #38bdf8;
+    color: #0f172a;
     border: none;
-    padding: 12px 24px;
     border-radius: 6px;
-    cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #0ea5e9;
+    background: #0ea5e9;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
 }
